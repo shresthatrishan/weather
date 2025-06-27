@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        #navbar {
+            background-color: #1e2c34;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        #navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        #navbar li {
+            padding: 16px 24px;
+            color: #fdfdfd;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+    
+        </style>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="formCss">
+        <form>
+        <label for="firstname"> First name: </label>
+        <input id="firstname" type="text">
+        <label for="lastname"> Last name: </label>
+        <input id="lastname" type="text">
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+        <div>
+        <label for="dob"> Date of Birth: </label>
+        <input id="dob" type="date" name="dob">
+            <label for="email"> Email: </label>
+            <input id="email" type="email" name="email">
+        <br>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+        <label for="phone"> Phone: </label>
+        <input type="tel" id="phone" name="phone">
+        <label for="address"> Address: </label>
+         <input type="address" id="address" name="address">
+            
+        <br>
+        <div style="margin-top: 10px; margin-bottom: 10px;"></div>
+        CSIT <input id="course_csit" type="checkbox">
+        BCA <input id="course_bca" type="checkbox">
+        BIM <input id="course_bim" type="checkbox">
+        </div> 
+        Gender: 
+        Male <input name="gender" type="radio" value="male">
+        Female <input name="gender" type="radio" value="female">
+        <br>
+        <div style="margin-top: 10px; margin-bottom: 10px;"></div>
+        
+        Language:
+        <select>
+            <option value="English">English</option>
+            <option value="Nepali">Nepali</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+        <br>
+        <div style="margin-top: 10px; margin-bottom: 10px;"></div>
+<label for="Feedback">Feedback:</label>
+<br>
+<textarea rows="4" cols="40"></textarea>
+<br>
+
+       <div> <br>
+            <label for="fileUpload">File Upload:</label>
+            <input type="file" name="fileUpload"/>
+        </div> <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

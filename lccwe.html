@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Lumbini City College</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    <link rel="stylesheet" href="style.css">
+
+    body { margin:0; font-family: Arial, sans-serif; line-height:1.6; }
+    header, footer { background:#023047; color:white; text-align:center; padding:20px 0; }
+    nav { background:#04506d; }
+    nav a { color:white; padding:14px 20px; display:inline-block; text-decoration:none; }
+    nav a:hover { background:#023047; }
+    .hero { background:url('hero.jpg') no-repeat center/cover; height:300px; display:flex;
+            justify-content:center; align-items:center; color:white; font-size:2rem; }
+    .section { padding:40px 20px; max-width:1000px; margin:0 auto; }
+    .cards { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .card { flex:1 1 260px; background:#f8f8f8; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; }
+    .gallery img { width:100%; height:150px; object-fit:cover; }
+    form input, form textarea { width:100%; padding:10px; margin:8px 0; }
+    form button { padding:12px 20px; background:#04506d; color:white; border:none; cursor:pointer; }
+    form button:hover { background:#023047; }
+    @media(max-width:600px) { .cards, .gallery { flex-direction:column; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lumbini City College</h1>
+  <p>Affiliated to Tribhuvan University – Tilottama, Rupandehi</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#programs">Programs</a>
+  <a href="#eligibility">Eligibility</a>
+  <a href="#scholarships">Scholarships</a>
+  <a href="#admission">Admission</a>
+  <a href="#resources">Resources</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <div>Welcome to Lumbini City College</div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>Lumbini City College, formerly Tinau Technical College, was established in 2069 B.S. with B.Sc CSIT and later added BCA and BIM programs under Tribhuvan University :contentReference[oaicite:2]{index=2}.</p>
+</section>
+
+<section id="programs" class="section">
+  <h2>Programs</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>B.Sc. CSIT</h3>
+      <p>4-year program in computer science and IT :contentReference[oaicite:3]{index=3}</p>
+    </div>
+    <div class="card">
+      <h3>BCA</h3>
+      <p>4-year program under Faculty of Humanities & Social Science :contentReference[oaicite:4]{index=4}</p>
+    </div>
+    <div class="card">
+      <h3>BIM</h3>
+      <p>4-year program combining IT and Business Management :contentReference[oaicite:5]{index=5}</p>
+    </div>
+  </div>
+</section>
+
+<section id="eligibility" class="section">
+  <h2>Eligibility to Apply</h2>
+  <ul>
+    <li>Pass 10+2 or equivalent</li>
+    <li>Qualify in the entrance exam</li>
+    <li>Submit required docs :contentReference[oaicite:6]{index=6}</li>
+  </ul>
+</section>
+
+<section id="scholarships" class="section">
+  <h2>Scholarships</h2>
+  <p>We offer scholarships to deserving students. Visit the college office for details :contentReference[oaicite:7]{index=7}.</p>
+</section>
+
+<section id="admission" class="section">
+  <h2>Admission Process</h2>
+  <ol>
+    <li>Check eligibility</li>
+    <li>Select program</li>
+    <li>Pass entrance exam</li>
+    <li>Submit application</li>
+    <li>Pay fees</li>
+    <li>Attend classes :contentReference[oaicite:8]{index=8}</li>
+  </ol>
+</section>
+
+<section id="resources" class="section">
+  <h2>Resources</h2>
+  <p>Access PDF resources: internship reports, lab reports, etc. :contentReference[oaicite:9]{index=9}</p>
+</section>
+
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="gallery1.jpg" alt="College image 1">
+    <img src="gallery2.jpg" alt="College image 2">
+    <img src="gallery3.jpg" alt="College image 3">
+    <img src="gallery4.jpg" alt="College image 4">
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>Tilottama‑4, Divertole, Rupandehi, Nepal<br>
+     Phone: +977‑071‑414633<br>
+     Email: admin@lcc.edu.np :contentReference[oaicite:10]{index=10}</p>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="4" placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 Lumbini City College. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
